@@ -5,3 +5,7 @@ public interface Shape {
 
     double calculatePerimeter();
 }
+public abstract class Polygon {
+
+    public abstract int numberOfSides();
+}
